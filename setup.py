@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Setup script for Print GitHub Notifications
+Setup script for Print Notifications
 """
 
 from setuptools import setup, find_packages
@@ -12,9 +12,9 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
 
 setup(
-    name="print-github-notifications",
+    name="print-notifications",
     version="1.0.0",
-    author="GitHub Notifications Printer",
+    author="Jan Odvar Grindheim",
     description="Multi-service notification printer for thermal printers",
     long_description=long_description,
     long_description_content_type="text/markdown",
