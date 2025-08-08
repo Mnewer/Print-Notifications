@@ -38,7 +38,7 @@ Print-GitHub-Notifications/
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd Print-GitHub-Notifications
+cd Print-Notifications
 
 # Install dependencies
 pip install -r requirements.txt
